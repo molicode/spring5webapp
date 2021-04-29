@@ -24,14 +24,6 @@ public class Publisher {
     public Publisher() {
     }
 
-    public Publisher(Long id, String name, String addressLine1, String city, String state, String zip) {
-        this.id = id;
-        this.name = name;        this.addressLine1 = addressLine1;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
-    }
-
     public Long getId() {
         return id;
     }
